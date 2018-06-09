@@ -3,7 +3,6 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Reflection.Metadata.Ecma335;
 using Microsoft.Extensions.Logging;
 
 namespace Minux.TypeLoader
