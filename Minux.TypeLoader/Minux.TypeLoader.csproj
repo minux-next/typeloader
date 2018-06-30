@@ -8,12 +8,13 @@
     <AssemblyTitle>Minux: typeloader</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Authors>Minux</Authors>
-    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <AssemblyVersion>2.0.2.0</AssemblyVersion>
     <RepositoryUrl>https://github.com/xming076/typeloader.git</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
-    <FileVersion>2.0.1.0</FileVersion>
-    <Version>2.0.1</Version>
+    <FileVersion>2.0.2.0</FileVersion>
+    <Version>2.0.2</Version>
+    <PackageProjectUrl>https://github.com/xming076/typeloader</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
