@@ -5,7 +5,7 @@ Simplify reflection loading types.
 Install-Package Minux.TypeLoader -Version 2.0.1   
 dotnet add package Minux.TypeLoader --version 2.0.1   
 
-# Add to services
+# Add to service collection
 ```c#
 public void ConfigureServices(IServiceCollection services)
 {
@@ -21,5 +21,5 @@ IEnumerable<Type> myServiceTypes = loader.Load<IMyService>();
 
 ```c#
 // Load all types that implementing the IMyService interface and declared with MyCustomAttribute from the application domain 
-IEnumerable<Type, MyCustomAttribute> myServiceTypes = loader.Load<IMyService, MyCustomAttribute>();
+IEnumerable<(Type, MyCustomAttribute)> myServiceTypes = loader.Load<IMyService, MyCustomAttribute>();
 ```
